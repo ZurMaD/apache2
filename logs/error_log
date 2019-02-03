@@ -1,0 +1,408 @@
+[Sun Feb 03 20:34:12.875543 2019] [ssl:warn] [pid 1584] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:34:12.876784 2019] [ssl:warn] [pid 1584] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:34:13.2035 1585/7fc3cdd33b80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:34:13.2417 1588/7f71d82b6b80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:34:13.2418 1588/7f71d82b6b80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:34:13.2874 1588/7f71d82b6b80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 1588
+[ 2019-02-03 20:34:13.2937 1594/7f9d4ea52b80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:34:13.2952 1594/7f9d4ea52b80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1594
+
+[ 2019-02-03 20:34:13.2968 1588/7f71d5043700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:34:13.2968 1588/7f71d82b6b80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:34:13.2968 1588/7f71c7fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:34:13.2968 1588/7f71c7fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:34:13.2969 1588/7f71d5043700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:34:13.2970 1588/7f71d5043700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2019-02-03 20:34:13.2971 1594/7f9d4b9ba700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:34:13.2971 1594/7f9d4ea52b80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:34:13.2971 1594/7f9d4b9ba700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:34:13.2972 1594/7f9d4b1b9700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:34:13.2972 1594/7f9d4b1b9700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:34:13.3255 1594/7f9d4ea52b80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2019-02-03 20:34:13.3566 1588/7f71d82b6b80 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[Sun Feb 03 20:34:13.358146 2019] [ssl:warn] [pid 1610] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:34:13.358455 2019] [ssl:warn] [pid 1610] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:34:13.7108 1636/7f88601b9b80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:34:13.7159 1639/7f97f821cb80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:34:13.7160 1639/7f97f821cb80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:34:13.7188 1639/7f97f821cb80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 1639
+[ 2019-02-03 20:34:13.7251 1645/7f6ee2174b80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:34:13.7258 1645/7f6ee2174b80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1645
+[Sun Feb 03 20:34:13.728689 2019] [mpm_prefork:notice] [pid 1610] AH00163: Apache/2.4.35 (Unix) OpenSSL/1.0.2p PHP/7.1.22 mod_wsgi/3.5 Python/2.7.15 Phusion_Passenger/5.1.2 configured -- resuming normal operations
+[Sun Feb 03 20:34:13.728729 2019] [core:notice] [pid 1610] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'
+App 1827 stdout: 
+App 1827 stdout: Loading config.ru.
+App 1827 stderr: `Rack::Timeout.timeout=`: class-level settings are deprecated. See README for examples on using the middleware initializer instead.
+App 1827 stderr: 
+App 1827 stdout: W, [2019-02-03T20:34:26.131189 #1827]  WARN -- : NewRelic agent library not installed
+App 1827 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:52: warning: constant ::Fixnum is deprecated
+App 1827 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:54: warning: constant ::Fixnum is deprecated
+App 1827 stdout: W, [2019-02-03T20:34:27.083432 #1827]  WARN -- : Overwriting existing field _id in class User.
+App 1827 stdout: W, [2019-02-03T20:34:27.296880 #1827]  WARN -- : MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+App 1827 stdout: W, [2019-02-03T20:34:27.297082 #1827]  WARN -- : MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+App 1827 stdout: W, [2019-02-03T20:34:27.297138 #1827]  WARN -- : MONGODB | Unsupported client option 'timeout'. It will be ignored.
+App 1827 stdout: W, [2019-02-03T20:34:27.350312 #1827]  WARN -- : NewRelic agent library not installed
+App 1895 stdout: 
+App 1827 stderr: source=rack-timeout id=231ee09408fa1ac818729f6e51f0b8c2 timeout=20000ms state=ready at=info
+App 1827 stderr: I, [2019-02-03T20:34:28.598987 #1895]  INFO -- : source=rack-timeout id=231ee09408fa1ac818729f6e51f0b8c2 timeout=20000ms service=68ms state=completed
+App 1827 stderr: 127.0.0.1 - - [03/Feb/2019:20:34:28 +0000] "HEAD / HTTP/1.1" 401 - 0.0166
+App 1903 stdout: 
+[Sun Feb 03 20:34:57.772339 2019] [mpm_prefork:notice] [pid 1610] AH00169: caught SIGTERM, shutting down
+
+[ 2019-02-03 20:34:57.7899 1639/7f97f4fa9700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:34:57.7899 1639/7f97f821cb80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:34:57.7899 1639/7f97f821cb80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 1895, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:34:57.7899 1639/7f97f821cb80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 1903, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:34:57.7900 1639/7f97effff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:34:57.7900 1639/7f97effff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:34:57.7901 1639/7f97f4fa9700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:34:57.7902 1639/7f97f4fa9700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2019-02-03 20:34:57.7902 1639/7f97f821cb80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 1895, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:34:57.7902 1639/7f97f821cb80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 1903, application /opt/bitnami/apps/forum/cs_comments_service
+
+[ 2019-02-03 20:34:57.7977 1645/7f6edf0dc700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:34:57.7977 1645/7f6ee2174b80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:34:57.7978 1645/7f6ede8db700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:34:57.7978 1645/7f6ede8db700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:34:57.7981 1645/7f6edf0dc700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:34:57.7981 1645/7f6ee2174b80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[Sun Feb 03 20:35:00.001990 2019] [ssl:warn] [pid 2020] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:35:00.002293 2019] [ssl:warn] [pid 2020] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:35:00.0071 2021/7f11e8fb6b80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:35:00.0120 2024/7f8dbfcfcb80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:35:00.0121 2024/7f8dbfcfcb80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:35:00.0148 2024/7f8dbfcfcb80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2024
+[ 2019-02-03 20:35:00.0210 2030/7f401cea3b80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:35:00.0216 2030/7f401cea3b80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2030
+
+[ 2019-02-03 20:35:00.0296 2024/7f8dbca89700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:35:00.0297 2024/7f8dbfcfcb80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:35:00.0298 2024/7f8db7fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:35:00.0298 2024/7f8db7fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:35:00.0299 2024/7f8dbca89700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:35:00.0299 2024/7f8dbca89700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2019-02-03 20:35:00.0306 2030/7f4019e0b700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:35:00.0306 2030/7f401cea3b80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:35:00.0306 2030/7f4019e0b700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:35:00.0307 2030/7f401960a700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:35:00.0307 2030/7f401960a700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:35:00.0309 2030/7f401cea3b80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2019-02-03 20:35:00.0508 2024/7f8dbfcfcb80 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[Sun Feb 03 20:35:00.056712 2019] [ssl:warn] [pid 2046] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:35:00.056973 2019] [ssl:warn] [pid 2046] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:35:00.1357 2067/7f6e55830b80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:35:00.1629 2088/7fb06b112b80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:35:00.1630 2088/7fb06b112b80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:35:00.1731 2088/7fb06b112b80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2088
+[ 2019-02-03 20:35:00.1828 2179/7f4d1071bb80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:35:00.1834 2179/7f4d1071bb80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2179
+[Sun Feb 03 20:35:00.186104 2019] [mpm_prefork:notice] [pid 2046] AH00163: Apache/2.4.35 (Unix) OpenSSL/1.0.2p PHP/7.1.22 mod_wsgi/3.5 Python/2.7.15 Phusion_Passenger/5.1.2 configured -- resuming normal operations
+[Sun Feb 03 20:35:00.186147 2019] [core:notice] [pid 2046] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'
+App 2229 stdout: 
+App 2229 stdout: Loading config.ru.
+App 2229 stderr: `Rack::Timeout.timeout=`: class-level settings are deprecated. See README for examples on using the middleware initializer instead.
+App 2229 stderr: 
+App 2229 stdout: W, [2019-02-03T20:35:08.248541 #2229]  WARN -- : NewRelic agent library not installed
+App 2229 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:52: warning: constant ::Fixnum is deprecated
+App 2229 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:54: warning: constant ::Fixnum is deprecated
+App 2229 stdout: W, [2019-02-03T20:35:08.672525 #2229]  WARN -- : Overwriting existing field _id in class User.
+App 2229 stdout: W, [2019-02-03T20:35:08.735457 #2229]  WARN -- : MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+App 2229 stdout: W, [2019-02-03T20:35:08.737374 #2229]  WARN -- : MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+App 2229 stdout: W, [2019-02-03T20:35:08.737483 #2229]  WARN -- : MONGODB | Unsupported client option 'timeout'. It will be ignored.
+App 2229 stdout: W, [2019-02-03T20:35:08.765121 #2229]  WARN -- : NewRelic agent library not installed
+App 2297 stdout: 
+App 2229 stderr: source=rack-timeout id=122ccb60ece178d38092631d0fe95d63 timeout=20000ms state=ready at=info
+App 2229 stderr: I, [2019-02-03T20:35:09.977276 #2297]  INFO -- : source=rack-timeout id=122ccb60ece178d38092631d0fe95d63 timeout=20000ms service=59ms state=completed
+App 2229 stderr: 127.0.0.1 - - [03/Feb/2019:20:35:09 +0000] "HEAD / HTTP/1.1" 401 - 0.0259
+App 2309 stdout: 
+[Sun Feb 03 20:35:11.515788 2019] [mpm_prefork:notice] [pid 2046] AH00169: caught SIGTERM, shutting down
+
+[ 2019-02-03 20:35:11.5330 2088/7fb0637fe700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:35:11.5330 2088/7fb06b112b80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:35:11.5330 2088/7fb06b112b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2297, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:35:11.5330 2088/7fb06b112b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2309, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:35:11.5331 2088/7fb062ffd700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:35:11.5331 2088/7fb062ffd700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:35:11.5333 2088/7fb0637fe700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:35:11.5333 2088/7fb0637fe700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2019-02-03 20:35:11.5334 2088/7fb06b112b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2297, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:35:11.5334 2088/7fb06b112b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2309, application /opt/bitnami/apps/forum/cs_comments_service
+
+[ 2019-02-03 20:35:11.5374 2179/7f4d0d683700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:35:11.5374 2179/7f4d1071bb80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:35:11.5375 2179/7f4d0ce82700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:35:11.5375 2179/7f4d0ce82700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:35:11.5377 2179/7f4d0d683700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:35:11.5378 2179/7f4d1071bb80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[Sun Feb 03 20:35:13.936053 2019] [ssl:warn] [pid 2392] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:35:13.936357 2019] [ssl:warn] [pid 2392] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:35:13.9410 2393/7f4a390b1b80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:35:13.9459 2396/7efcfdb77b80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:35:13.9461 2396/7efcfdb77b80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:35:13.9487 2396/7efcfdb77b80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2396
+[ 2019-02-03 20:35:13.9546 2402/7fd87e62cb80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:35:13.9552 2402/7fd87e62cb80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2402
+
+[ 2019-02-03 20:35:13.9617 2396/7efcfa904700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:35:13.9617 2396/7efcfdb77b80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:35:13.9617 2396/7efcfa082700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:35:13.9617 2396/7efcfa082700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:35:13.9619 2396/7efcfa904700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:35:13.9619 2396/7efcfa904700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2019-02-03 20:35:13.9625 2402/7fd87b594700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:35:13.9626 2402/7fd87e62cb80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:35:13.9626 2402/7fd87b594700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:35:13.9626 2402/7fd87ad93700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:35:13.9626 2402/7fd87ad93700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:35:13.9628 2402/7fd87e62cb80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2019-02-03 20:35:13.9828 2396/7efcfdb77b80 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[Sun Feb 03 20:35:13.992220 2019] [ssl:warn] [pid 2418] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:35:13.992467 2019] [ssl:warn] [pid 2418] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:35:14.0588 2440/7f96c2c31b80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:35:14.0937 2460/7fbd3f427b80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:35:14.0938 2460/7fbd3f427b80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:35:14.0963 2460/7fbd3f427b80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2460
+[ 2019-02-03 20:35:14.1155 2483/7f2d0c00cb80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:35:14.1161 2483/7f2d0c00cb80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2483
+[Sun Feb 03 20:35:14.119041 2019] [mpm_prefork:notice] [pid 2418] AH00163: Apache/2.4.35 (Unix) OpenSSL/1.0.2p PHP/7.1.22 mod_wsgi/3.5 Python/2.7.15 Phusion_Passenger/5.1.2 configured -- resuming normal operations
+[Sun Feb 03 20:35:14.119106 2019] [core:notice] [pid 2418] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'
+App 2726 stdout: 
+App 2726 stdout: Loading config.ru.
+App 2726 stderr: `Rack::Timeout.timeout=`: class-level settings are deprecated. See README for examples on using the middleware initializer instead.
+App 2726 stderr: 
+App 2726 stdout: W, [2019-02-03T20:35:19.207717 #2726]  WARN -- : NewRelic agent library not installed
+App 2726 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:52: warning: constant ::Fixnum is deprecated
+App 2726 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:54: warning: constant ::Fixnum is deprecated
+App 2726 stdout: W, [2019-02-03T20:35:19.622681 #2726]  WARN -- : Overwriting existing field _id in class User.
+App 2726 stdout: W, [2019-02-03T20:35:19.654112 #2726]  WARN -- : MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+App 2726 stdout: W, [2019-02-03T20:35:19.654279 #2726]  WARN -- : MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+App 2726 stdout: W, [2019-02-03T20:35:19.654352 #2726]  WARN -- : MONGODB | Unsupported client option 'timeout'. It will be ignored.
+App 2726 stdout: W, [2019-02-03T20:35:19.668647 #2726]  WARN -- : NewRelic agent library not installed
+App 2790 stdout: 
+App 2726 stderr: source=rack-timeout id=d731889698745f97095bdccf6bb085ea timeout=20000ms state=ready at=info
+App 2726 stderr: I, [2019-02-03T20:35:20.479421 #2790]  INFO -- : source=rack-timeout id=d731889698745f97095bdccf6bb085ea timeout=20000ms service=43ms state=completed
+App 2726 stderr: 127.0.0.1 - - [03/Feb/2019:20:35:20 +0000] "HEAD / HTTP/1.1" 401 - 0.0243
+App 2804 stdout: 
+[Sun Feb 03 20:35:26.167944 2019] [mpm_prefork:notice] [pid 2418] AH00169: caught SIGTERM, shutting down
+
+[ 2019-02-03 20:35:26.1849 2460/7fbd2ffff700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:35:26.1849 2460/7fbd3f427b80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:35:26.1849 2460/7fbd3f427b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2790, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:35:26.1850 2460/7fbd3f427b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2804, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:35:26.1850 2460/7fbd2f7fe700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:35:26.1850 2460/7fbd2f7fe700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:35:26.1851 2460/7fbd2ffff700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:35:26.1851 2460/7fbd2ffff700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2019-02-03 20:35:26.1852 2460/7fbd3f427b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2790, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:35:26.1852 2460/7fbd3f427b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 2804, application /opt/bitnami/apps/forum/cs_comments_service
+
+[ 2019-02-03 20:35:26.1888 2483/7f2d08f74700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:35:26.1888 2483/7f2d0c00cb80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:35:26.1889 2483/7f2cfbfff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:35:26.1889 2483/7f2cfbfff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:35:26.1891 2483/7f2d08f74700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:35:26.1892 2483/7f2d0c00cb80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2019-02-03 20:35:27.8039 1981/7f88601b9b80 age/Wat/WatchdogMain.cpp:454 ]: Some Phusion Passenger agent processes did not exit in time, forcefully shutting down all.
+[Sun Feb 03 20:35:28.587856 2019] [ssl:warn] [pid 2906] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:35:28.588159 2019] [ssl:warn] [pid 2906] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:35:28.5928 2907/7f63b15d1b80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:35:28.5994 2910/7f5eaac62b80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:35:28.5995 2910/7f5eaac62b80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:35:28.6026 2910/7f5eaac62b80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2910
+[ 2019-02-03 20:35:28.6089 2916/7fe04eca2b80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:35:28.6095 2916/7fe04eca2b80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2916
+
+[ 2019-02-03 20:35:28.6175 2910/7f5ea79ef700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:35:28.6176 2910/7f5eaac62b80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:35:28.6176 2910/7f5ea716d700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:35:28.6176 2910/7f5ea716d700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:35:28.6177 2910/7f5ea79ef700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:35:28.6177 2910/7f5ea79ef700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2019-02-03 20:35:28.6185 2916/7fe04bc0a700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:35:28.6185 2916/7fe04eca2b80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:35:28.6186 2916/7fe04bc0a700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:35:28.6186 2916/7fe04b409700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:35:28.6186 2916/7fe04b409700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:35:28.6188 2916/7fe04eca2b80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2019-02-03 20:35:28.6388 2910/7f5eaac62b80 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[Sun Feb 03 20:35:28.648021 2019] [ssl:warn] [pid 2932] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:35:28.648281 2019] [ssl:warn] [pid 2932] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:35:28.7287 2954/7f2a7a29ab80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:35:28.7551 2991/7f9be37e7b80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:35:28.7552 2991/7f9be37e7b80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:35:28.7636 2991/7f9be37e7b80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 2991
+[ 2019-02-03 20:35:28.7717 3065/7ff6de2d1b80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:35:28.7723 3065/7ff6de2d1b80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 3065
+[Sun Feb 03 20:35:28.775587 2019] [mpm_prefork:notice] [pid 2932] AH00163: Apache/2.4.35 (Unix) OpenSSL/1.0.2p PHP/7.1.22 mod_wsgi/3.5 Python/2.7.15 Phusion_Passenger/5.1.2 configured -- resuming normal operations
+[Sun Feb 03 20:35:28.775632 2019] [core:notice] [pid 2932] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'
+App 3115 stdout: 
+App 3115 stdout: Loading config.ru.
+App 3115 stderr: `Rack::Timeout.timeout=`: class-level settings are deprecated. See README for examples on using the middleware initializer instead.
+App 3115 stderr: 
+App 3115 stdout: W, [2019-02-03T20:35:36.578624 #3115]  WARN -- : NewRelic agent library not installed
+App 3115 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:52: warning: constant ::Fixnum is deprecated
+App 3115 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:54: warning: constant ::Fixnum is deprecated
+App 3115 stdout: W, [2019-02-03T20:35:37.352723 #3115]  WARN -- : Overwriting existing field _id in class User.
+App 3115 stdout: W, [2019-02-03T20:35:37.383716 #3115]  WARN -- : MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+App 3115 stdout: W, [2019-02-03T20:35:37.383892 #3115]  WARN -- : MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+App 3115 stdout: W, [2019-02-03T20:35:37.383960 #3115]  WARN -- : MONGODB | Unsupported client option 'timeout'. It will be ignored.
+App 3115 stdout: W, [2019-02-03T20:35:37.399196 #3115]  WARN -- : NewRelic agent library not installed
+App 3188 stdout: 
+App 3115 stderr: source=rack-timeout id=7ddf0ab7a5f0b2bb1d9fc9687de447f0 timeout=20000ms state=ready at=info
+App 3115 stderr: I, [2019-02-03T20:35:38.488190 #3188]  INFO -- : source=rack-timeout id=7ddf0ab7a5f0b2bb1d9fc9687de447f0 timeout=20000ms service=59ms state=completed
+App 3115 stderr: 127.0.0.1 - - [03/Feb/2019:20:35:38 +0000] "HEAD / HTTP/1.1" 401 - 0.0303
+App 3196 stdout: 
+[ 2019-02-03 20:35:41.5400 2354/7f6e55830b80 age/Wat/WatchdogMain.cpp:454 ]: Some Phusion Passenger agent processes did not exit in time, forcefully shutting down all.
+[ 2019-02-03 20:35:56.1910 2864/7f96c2c31b80 age/Wat/WatchdogMain.cpp:454 ]: Some Phusion Passenger agent processes did not exit in time, forcefully shutting down all.
+[Sun Feb 03 20:37:24.286665 2019] [mpm_prefork:notice] [pid 2932] AH00169: caught SIGTERM, shutting down
+
+[ 2019-02-03 20:37:24.3035 2991/7f9be0574700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:37:24.3035 2991/7f9be37e7b80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:37:24.3036 2991/7f9be37e7b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 3188, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:37:24.3036 2991/7f9be37e7b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 3196, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:37:24.3036 2991/7f9bdfcf2700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:37:24.3036 2991/7f9bdfcf2700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:37:24.3038 2991/7f9be0574700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:37:24.3038 2991/7f9be0574700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2019-02-03 20:37:24.3038 2991/7f9be37e7b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 3188, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:37:24.3039 2991/7f9be37e7b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 3196, application /opt/bitnami/apps/forum/cs_comments_service
+
+[ 2019-02-03 20:37:24.3094 3065/7ff6db239700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:37:24.3095 3065/7ff6de2d1b80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:37:24.3095 3065/7ff6daa38700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:37:24.3095 3065/7ff6daa38700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:37:24.3098 3065/7ff6db239700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:37:24.3098 3065/7ff6de2d1b80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[Sun Feb 03 20:37:26.698629 2019] [ssl:warn] [pid 5048] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:37:26.698935 2019] [ssl:warn] [pid 5048] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:37:26.7035 5049/7fbd73b5fb80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:37:26.7080 5052/7f24e09c4b80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:37:26.7081 5052/7f24e09c4b80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:37:26.7107 5052/7f24e09c4b80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 5052
+[ 2019-02-03 20:37:26.7164 5058/7f68cb0c7b80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:37:26.7170 5058/7f68cb0c7b80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 5058
+
+[ 2019-02-03 20:37:26.7237 5052/7f24dd751700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:37:26.7238 5052/7f24e09c4b80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:37:26.7238 5052/7f24dcecf700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:37:26.7238 5052/7f24dcecf700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:37:26.7239 5052/7f24dd751700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:37:26.7239 5052/7f24dd751700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2019-02-03 20:37:26.7246 5058/7f68c802f700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:37:26.7246 5058/7f68cb0c7b80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:37:26.7247 5058/7f68c802f700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:37:26.7247 5058/7f68c782e700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:37:26.7247 5058/7f68c782e700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:37:26.7249 5058/7f68cb0c7b80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2019-02-03 20:37:26.7449 5052/7f24e09c4b80 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[Sun Feb 03 20:37:26.757744 2019] [ssl:warn] [pid 5074] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:37:26.758010 2019] [ssl:warn] [pid 5074] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:37:26.8338 5096/7fd075586b80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:37:26.8617 5129/7f95624d1b80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:37:26.8618 5129/7f95624d1b80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:37:26.8669 5129/7f95624d1b80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 5129
+[ 2019-02-03 20:37:26.8796 5152/7fd4a232bb80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:37:26.8801 5152/7fd4a232bb80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 5152
+[Sun Feb 03 20:37:26.882671 2019] [mpm_prefork:notice] [pid 5074] AH00163: Apache/2.4.35 (Unix) OpenSSL/1.0.2p PHP/7.1.22 mod_wsgi/3.5 Python/2.7.15 Phusion_Passenger/5.1.2 configured -- resuming normal operations
+[Sun Feb 03 20:37:26.882710 2019] [core:notice] [pid 5074] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'
+[ 2019-02-03 20:37:28.9801 5129/7f95623e1700 age/Cor/SecurityUpdateChecker.h:452 ]: Security update check failed: Problem with the SSL CA cert (path? access rights?) while connecting to https://securitycheck.phusionpassenger.com:443/v1/check.json ; this might happen if the nss backend is installed for libcurl instead of GnuTLS or OpenSSL. If the problem persists, you can also try upgrading or reinstalling Passenger (next check in 24 hours)
+App 5284 stdout: 
+App 5284 stdout: Loading config.ru.
+App 5284 stderr: `Rack::Timeout.timeout=`: class-level settings are deprecated. See README for examples on using the middleware initializer instead.
+App 5284 stderr: 
+App 5284 stdout: W, [2019-02-03T20:37:31.955292 #5284]  WARN -- : NewRelic agent library not installed
+App 5284 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:52: warning: constant ::Fixnum is deprecated
+App 5284 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:54: warning: constant ::Fixnum is deprecated
+App 5284 stdout: W, [2019-02-03T20:37:32.356505 #5284]  WARN -- : Overwriting existing field _id in class User.
+App 5284 stdout: W, [2019-02-03T20:37:32.386148 #5284]  WARN -- : MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+App 5284 stdout: W, [2019-02-03T20:37:32.386328 #5284]  WARN -- : MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+App 5284 stdout: W, [2019-02-03T20:37:32.386385 #5284]  WARN -- : MONGODB | Unsupported client option 'timeout'. It will be ignored.
+App 5284 stdout: W, [2019-02-03T20:37:32.401113 #5284]  WARN -- : NewRelic agent library not installed
+App 5340 stdout: 
+App 5284 stderr: source=rack-timeout id=2c7630d9a78dd86ea2dcd12a9db1c2a0 timeout=20000ms state=ready at=info
+App 5284 stderr: I, [2019-02-03T20:37:33.148987 #5340]  INFO -- : source=rack-timeout id=2c7630d9a78dd86ea2dcd12a9db1c2a0 timeout=20000ms service=42ms state=completed
+App 5284 stderr: 127.0.0.1 - - [03/Feb/2019:20:37:33 +0000] "HEAD / HTTP/1.1" 401 - 0.0203
+App 5348 stdout: 
+[ 2019-02-03 20:37:41.3415 2991/7f9be36f7700 age/Cor/SecurityUpdateChecker.h:452 ]: Security update check failed: Couldn't connect to server for https://securitycheck.phusionpassenger.com:443/v1/check.json (if this error persists check your connection security or try upgrading Passenger) (next check in 24 hours)
+[ 2019-02-03 20:37:41.3623 2991/7f9be37e7b80 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2019-02-03 20:39:48.0543 5129/7f95624ad700 age/Cor/App/Poo/AnalyticsCollection.cpp:61 ]: ERROR: Cannot fork() a new process: Cannot allocate memory (errno=12)
+  Backtrace:
+     in 'void Passenger::ApplicationPool2::Pool::realCollectAnalytics()' (AnalyticsCollection.cpp:183)
+     in 'static void Passenger::ApplicationPool2::Pool::collectAnalytics(Passenger::ApplicationPool2::PoolPtr)' (AnalyticsCollection.cpp:56)
+
+[Sun Feb 03 20:40:41.801977 2019] [mpm_prefork:notice] [pid 5074] AH00169: caught SIGTERM, shutting down
+
+[ 2019-02-03 20:40:41.9471 5129/7f955f25e700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:40:41.9471 5129/7f95624d1b80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:40:41.9471 5129/7f95624d1b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 5340, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:40:41.9472 5129/7f95624d1b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 5348, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:40:41.9472 5129/7f955e9dc700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:40:41.9472 5129/7f955e9dc700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:40:41.9474 5129/7f955f25e700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:40:41.9474 5129/7f955f25e700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2019-02-03 20:40:41.9475 5129/7f95624d1b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 5340, application /opt/bitnami/apps/forum/cs_comments_service
+[ 2019-02-03 20:40:41.9475 5129/7f95624d1b80 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 5348, application /opt/bitnami/apps/forum/cs_comments_service
+
+[ 2019-02-03 20:40:41.9477 5152/7fd49f293700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:40:41.9478 5152/7fd4a232bb80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:40:41.9479 5152/7fd49ea92700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:40:41.9479 5152/7fd49ea92700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:40:41.9481 5152/7fd49f293700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:40:41.9482 5152/7fd4a232bb80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2019-02-03 20:40:42.6935 5129/7f95624d1b80 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[Sun Feb 03 20:40:43.484667 2019] [ssl:warn] [pid 7011] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:40:43.486452 2019] [ssl:warn] [pid 7011] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:40:43.4974 7012/7f039b90db80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:40:43.5077 7015/7f4f4d7c5b80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:40:43.5078 7015/7f4f4d7c5b80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:40:43.5641 7015/7f4f4d7c5b80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 7015
+[ 2019-02-03 20:40:43.5773 7021/7f5ee9fe5b80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:40:43.5778 7021/7f5ee9fe5b80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 7021
+
+[ 2019-02-03 20:40:43.5877 7015/7f4f4a552700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:40:43.5877 7015/7f4f4d7c5b80 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:40:43.5877 7015/7f4f49cd0700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:40:43.5877 7015/7f4f49cd0700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2019-02-03 20:40:43.5879 7015/7f4f4a552700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2019-02-03 20:40:43.5879 7015/7f4f4a552700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2019-02-03 20:40:43.5886 7021/7f5ee6f4d700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2019-02-03 20:40:43.5886 7021/7f5ee9fe5b80 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2019-02-03 20:40:43.5886 7021/7f5ee6f4d700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2019-02-03 20:40:43.5886 7021/7f5ee674c700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2019-02-03 20:40:43.5886 7021/7f5ee674c700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2019-02-03 20:40:43.5888 7021/7f5ee9fe5b80 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2019-02-03 20:40:43.6088 7015/7f4f4d7c5b80 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[Sun Feb 03 20:40:43.652054 2019] [ssl:warn] [pid 7041] AH01909: 10.240.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 03 20:40:43.653809 2019] [ssl:warn] [pid 7041] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[ 2019-02-03 20:40:43.7331 7059/7f5bf8e7ab80 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2019-02-03 20:40:43.7559 7062/7fa697e86b80 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2019-02-03 20:40:43.7560 7062/7fa697e86b80 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2019-02-03 20:40:43.7673 7062/7fa697e86b80 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 7062
+[ 2019-02-03 20:40:43.7900 7068/7f87b4325b80 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2019-02-03 20:40:43.7906 7068/7f87b4325b80 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 7068
+[Sun Feb 03 20:40:43.793186 2019] [mpm_prefork:notice] [pid 7041] AH00163: Apache/2.4.35 (Unix) OpenSSL/1.0.2p PHP/7.1.22 mod_wsgi/3.5 Python/2.7.15 Phusion_Passenger/5.1.2 configured -- resuming normal operations
+[Sun Feb 03 20:40:43.793233 2019] [core:notice] [pid 7041] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'
+[ 2019-02-03 20:40:45.9475 7062/7fa697d96700 age/Cor/SecurityUpdateChecker.h:452 ]: Security update check failed: Problem with the SSL CA cert (path? access rights?) while connecting to https://securitycheck.phusionpassenger.com:443/v1/check.json ; this might happen if the nss backend is installed for libcurl instead of GnuTLS or OpenSSL. If the problem persists, you can also try upgrading or reinstalling Passenger (next check in 24 hours)
+App 7278 stdout: 
+App 7278 stdout: Loading config.ru.
+App 7278 stderr: `Rack::Timeout.timeout=`: class-level settings are deprecated. See README for examples on using the middleware initializer instead.
+App 7278 stderr: 
+App 7278 stdout: W, [2019-02-03T20:40:55.894794 #7278]  WARN -- : NewRelic agent library not installed
+App 7278 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:52: warning: constant ::Fixnum is deprecated
+App 7278 stderr: /opt/bitnami/apps/forum/cs_comments_service/vendor/bundle/ruby/2.4.0/gems/elasticsearch-transport-1.1.2/lib/elasticsearch/transport/transport/base.rb:54: warning: constant ::Fixnum is deprecated
+App 7278 stdout: W, [2019-02-03T20:40:56.971105 #7278]  WARN -- : Overwriting existing field _id in class User.
+App 7278 stdout: W, [2019-02-03T20:40:57.092077 #7278]  WARN -- : MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+App 7278 stdout: W, [2019-02-03T20:40:57.092262 #7278]  WARN -- : MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+App 7278 stdout: W, [2019-02-03T20:40:57.092324 #7278]  WARN -- : MONGODB | Unsupported client option 'timeout'. It will be ignored.
+App 7278 stdout: W, [2019-02-03T20:40:57.383229 #7278]  WARN -- : NewRelic agent library not installed
+App 7852 stdout: 
+App 7278 stderr: source=rack-timeout id=14873e2618269486ab0e7d9d782864e1 timeout=20000ms state=ready at=info
+App 7860 stdout: 
+App 7278 stderr: I, [2019-02-03T20:40:58.887659 #7852]  INFO -- : source=rack-timeout id=14873e2618269486ab0e7d9d782864e1 timeout=20000ms service=126ms state=completed
+App 7278 stderr: 127.0.0.1 - - [03/Feb/2019:20:40:58 +0000] "HEAD / HTTP/1.1" 401 - 0.0483
